@@ -4,7 +4,7 @@ public class Main {
         maksim.name = "Максим";
         maksim.town = "Минск";
         maksim.yearOfBirds = 35;
-        maksim.job = "бренд-менеджера";
+
 
 
         maksim.say();
