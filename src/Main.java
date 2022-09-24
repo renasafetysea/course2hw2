@@ -1,43 +1,21 @@
 public class Main {
     public static void main(String[] args) {
-        Human maksim = new Human();
-        maksim.name = "Максим";
-        maksim.town = "Минск";
-        maksim.yearOfBirds = 35;
-        maksim.job = "бренд-менеджера";
-
-
-
-        maksim.say();
+        Human maksim = new Human("Максим","Минск",35,"бренд-менеджером");
+        System.out.println(maksim);
         System.out.println();
 
-        Human anya = new Human();
-        anya.name = "Аня";
-        anya.town = "Москва";
-        anya.yearOfBirds = 29;
-        anya.job = "методистом образовательных программ";
-
-        anya.say();
+        Human anya = new Human("Аня","Москва",29,"методистом образовательных программ");
+        System.out.println(anya);
         System.out.println();
 
 
-        Human katya = new Human();
-        katya.name = "Катя";
-        katya.town = "Калининград";
-        katya.yearOfBirds = 28;
-        katya.job = "продакт-менеджера";
-
-        katya.say();
+        Human katya = new Human("Катя","Калининград",28,"продакт-менеджером");
+        System.out.println(katya);
         System.out.println();
 
 
-        Human artem = new Human();
-        artem.name = "Артем";
-        artem.town = "Москва";
-        artem.yearOfBirds = 27;
-        artem.job = "директора по развитию бизнеса";
-
-        artem.say();
+        Human artem = new Human("Артем","Москва",27,"директором по развитию бизнеса");
+        System.out.println(artem);
         System.out.println();
 
 

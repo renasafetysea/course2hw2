@@ -1,15 +1,24 @@
 public class Human {
-     int yearOfBirds;
-     String name;
+    String name;
     String town;
+    int yearOfBirds;
     String job;
 
-    void say(){
-        System.out.println("Привет! Меня зовут " + name);
-        System.out.println("Я из города " + town);
-        System.out.println("Мне " + yearOfBirds + " лет");
-        System.out.println("Я работаю на должности " + job + ".Будем знакомы!");
-
+    public Human(String name, String town, int yearOfBirds, String job) {
+        this.name = name;
+        this.town = town;
+        this.yearOfBirds = yearOfBirds;
+        this.job = job;
     }
 
+    @Override
+    public String toString() {
+        return "Меня зовут "+ name +
+                ". Я из города " + town +
+                " .Мне " + yearOfBirds +
+                " лет.Я работаю " + job +
+                " .Будем знакомы!";
+
+    }
 }
+
