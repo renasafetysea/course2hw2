@@ -18,6 +18,10 @@ public class Main {
         System.out.println(artem);
         System.out.println();
 
+        Human vladimir = new Human("Владимир","Казань",21, "безработный");
+        System.out.println(vladimir);
+
+
 
     }
 }
